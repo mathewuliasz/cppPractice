@@ -1,0 +1,171 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/mathewuliasz/.antigravity/antigravity/bin/"
+      - "/Users/mathewuliasz/.opencode/bin/"
+      - "/Users/mathewuliasz/.local/bin/"
+      - "/Users/mathewuliasz/.codeium/windsurf/bin/"
+      - "/Users/mathewuliasz/.pyenv/shims/"
+      - "/Library/Frameworks/Python.framework/Versions/3.5/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+    searched_directories:
+      - "/Users/mathewuliasz/.antigravity/antigravity/bin/uname"
+      - "/Users/mathewuliasz/.opencode/bin/uname"
+      - "/Users/mathewuliasz/.local/bin/uname"
+      - "/Users/mathewuliasz/.codeium/windsurf/bin/uname"
+      - "/Users/mathewuliasz/.pyenv/shims/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.5/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/mathewuliasz/.antigravity/antigravity/bin"
+        - "/Users/mathewuliasz/.opencode/bin"
+        - "/Users/mathewuliasz/.local/bin"
+        - "/Users/mathewuliasz/.codeium/windsurf/bin"
+        - "/Users/mathewuliasz/.pyenv/shims"
+        - "/Users/mathewuliasz/.pyenv/shims"
+        - "/Library/Frameworks/Python.framework/Versions/3.5/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Users/mathewuliasz/.local/bin"
+        - "/Users/mathewuliasz/.codeium/windsurf/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.5/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Darwin - 23.5.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:66 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/mathewuliasz/.antigravity/antigravity/bin/"
+      - "/Users/mathewuliasz/.opencode/bin/"
+      - "/Users/mathewuliasz/.local/bin/"
+      - "/Users/mathewuliasz/.codeium/windsurf/bin/"
+      - "/Users/mathewuliasz/.pyenv/shims/"
+      - "/Library/Frameworks/Python.framework/Versions/3.5/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+    searched_directories:
+      - "/Users/mathewuliasz/.antigravity/antigravity/bin/install_name_tool"
+      - "/Users/mathewuliasz/.opencode/bin/install_name_tool"
+      - "/Users/mathewuliasz/.local/bin/install_name_tool"
+      - "/Users/mathewuliasz/.codeium/windsurf/bin/install_name_tool"
+      - "/Users/mathewuliasz/.pyenv/shims/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.5/bin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/mathewuliasz/.antigravity/antigravity/bin"
+        - "/Users/mathewuliasz/.opencode/bin"
+        - "/Users/mathewuliasz/.local/bin"
+        - "/Users/mathewuliasz/.codeium/windsurf/bin"
+        - "/Users/mathewuliasz/.pyenv/shims"
+        - "/Users/mathewuliasz/.pyenv/shims"
+        - "/Library/Frameworks/Python.framework/Versions/3.5/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Users/mathewuliasz/.local/bin"
+        - "/Users/mathewuliasz/.codeium/windsurf/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.5/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+...

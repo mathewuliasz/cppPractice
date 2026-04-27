@@ -1,0 +1,19 @@
+# ninja log v7
+4	2613	1777310888668462956	CMakeFiles/spsc_demo.dir/src/main.cpp.o	7a1ab02bf16d4137
+3	2656	1777310888667833081	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	4311a5f21b9e9520
+2619	2719	1777310891283582851	spsc_demo	bedb7aed0433c0f
+5	3044	1777310888670054833	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	8511a5f7bbb849e1
+5	3486	1777310888669492665	CMakeFiles/spsc_tests.dir/tests/spsc_tests.cpp.o	d912f80c2b697955
+2	4822	1777310888667156039	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	dbef6bd26851ab51
+1	8646	1777310888666131663	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	ab6c18a8258860
+8647	8695	1777310897312032037	lib/libgtest.a	38aefa2c5f83310
+8695	8728	1777310897359340281	lib/libgmock.a	cfd1235c984bcb0d
+8695	8728	1777310897359565948	lib/libgtest_main.a	2fc6f460164925a8
+8728	8762	1777310897392551264	lib/libgmock_main.a	ed294e13748ec368
+8728	8862	1777310897392925806	spsc_tests	b9861010422ba43e
+7	956	1777312654275647194	CMakeFiles/spsc_demo.dir/src/main.cpp.o	7a1ab02bf16d4137
+956	1087	1777312655224866454	spsc_demo	bedb7aed0433c0f
+7	1215	1777312654275944694	CMakeFiles/spsc_tests.dir/tests/spsc_tests.cpp.o	d912f80c2b697955
+1215	1251	1777312655483839650	spsc_tests	b9861010422ba43e
+6	791	1777312851206314377	CMakeFiles/spsc_demo.dir/src/main.cpp.o	7a1ab02bf16d4137
+791	910	1777312851991331180	spsc_demo	bedb7aed0433c0f
